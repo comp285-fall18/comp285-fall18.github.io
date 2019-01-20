@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:700|Source+Sans+Pro:400,700">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>comp285-fall18</title>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <h1 style=elegantshadow>Comp 285: Design and Analysis of Algorithms</h1>
+        <h2>Fall 2018</h2>
+		<h3>MWF 11:00 to 11:50 in Graham Hall 210</h3>
+      </div>
+      <div class="links">
+        <table>
+          <tr>
+            <th><a href="index.html">Home</a></th>
+            <th><a href="course-info.html">Course Info</a></th>
+            <th><a href="resources.html">Resources</a></th>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section>
+      <div class="instructors">
+        <table>
+          <tr>
+            <td>
+              <h3 class="subheader">Instructor</h3>
+              <div>
+                <div><img src="images/a.png" alt="allison"></div>
+                <div><a href="https://allisonius.github.io"  style="color:#439755;">Allison Sullivan</a></div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section>
+      <div class="schedule">
+        <h3 class="subheader">Schedule</h3>
+        <table>
+          <tr>
+            <th>Lecture</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Course Materials</th>
+          </tr>
+          <tr>
+            <td>Lecture 1</td>
+            <td>8/15</td>
+            <td>
+              <b>Introduction</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> What is a <i>better</i> algorithm?
+			  <ul>
+				<li>How to <i>design</i> for efficiency?</li>
+				<li>What makes an algorithm <i>correct?</i></li>
+			  </ul>
+            </td>
+            <td>
+            </td>
+            </td>
+          </tr>
+          <tr>
+            <td>Lecture 2</td>
+            <td>8/17</td>
+            <td>
+              <b>Algorithm Analysis</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Correctness of the Insertion Sort
+			  			  <ul>
+				<li>How does the insertion sort work?</li>
+				<li>Proof by induction</li>
+			  </ul>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>Lecture 3</td>
+            <td>8/20</td>
+            <td>
+			<b>Algorithm Analysis</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Insertion Sort runtime analysis
+			  <ul>
+				<li>Best-Case, Worst-Case and Average-Case analysis</li>
+				<li>What runtime describes a <i>fast</i> algorithm?</li>
+			  </ul>
+            </td>
+            <td></td>
+          </tr>
+		  <tr>
+            <td>Lecture 4</td>
+            <td>8/22</td>
+            <td>
+			<b>Divide and Conquer</b>
+              <br><b><font color="#623c9b">Concepts:</font></b>Correctness of MergeSort
+			  <ul>
+				<li>How does it work?</li>
+				<li>The smart merge sub-algorithm</li>
+				<li>Proof by induction</li>
+			  </ul>
+            </td>
+            <td></td>
+          </tr>
+		  <tr>
+            <td>Lecture 5</td>
+            <td>8/24</td>
+            <td>
+			<b>Divide and Conquer</b>
+              <br><b><font color="#623c9b">Concepts:</font></b>MergeSort runtime analysis
+			  <ul>
+				<li>Proving runtime with recursion trees</li>
+				<li>Proving runtime with the iteration method</li>
+				<li>Proving runtime with the master method</li>
+			  </ul>
+            </td>
+            <td>
+			[<a href="files/hw1.pdf"  style="color:#439755;">HW1 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 6</td>
+            <td>8/27</td>
+            <td>
+			<b>Randomized</b>
+              <br><b><font color="#623c9b">Concepts:</font></b>Correctness of QuickSort
+			  <ul>
+				<li>Intro to types of random algorithms</li>
+				<li>How does it work?</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 7</td>
+            <td>8/29</td>
+            <td>
+			<b>Randomized</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> QuickSort runtime analysis
+			  <ul>
+				<li>Proving expected runtime</li>
+				<li>Mergesort vs. Quicksort tradeoffs</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 8</td>
+            <td>8/31</td>
+            <td>
+			<b>Sorting Lower Bounds</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Reach linear-time sorting
+			  <ul>
+				<li>Proving comparison based sorting lower bounds</li>
+				<li>Counting Sort</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 1</b> in class <br>
+			[<a href="files/hw2.pdf"  style="color:#439755;">HW2 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 9</td>
+            <td>9/5</td>
+            <td>
+			<b>Sorting Lower Bounds</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Reach linear-time sorting
+			  <ul>
+				<li>Bucket Sort</li>
+				<li>Radix Sort</li>
+			  </ul>
+            </td>
+            <td>
+			[<a href="files/program1.pdf"  style="color:#439755;">Program 1 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 10</td>
+            <td>9/7</td>
+            <td>
+			<b>Divide and Conquer</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Median Finding
+			  <ul>
+				<li>The subsitution method</li>
+				<li>Linear-time selection</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 2</b> in class <br>
+			[<a href="files/hw3.pdf"  style="color:#439755;">HW3 Out</a>]
+			</td>
+          </tr>
+		   <tr>
+            <td>Lecture 11</td>
+            <td>9/10</td>
+            <td>
+			<b>Divide and Conquer</b>
+              <br><b><font color="#623c9b">Concepts:</font></b>Median Finding
+			  <ul>
+				<li>Take two: median of medians</li>
+				<li>Proving the runtime to reach linear time select</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 12</td>
+            <td>9/12</td>
+            <td>
+			<b>Divide and Conquer</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Recap
+			  <ul>
+				<li>Patterns in D/C</li>
+				<li>Clever tricks around the median</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 13</td>
+            <td>9/14</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b>Graph Intro
+			  <ul>
+			    <li>Why graphs? How do we use them today?</li>
+				<li>Review terms</li>
+				<li>Storage and memory implications</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 3</b> in class <br>
+			[<a href="files/hw4.pdf"  style="color:#439755;">HW4 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 14</td>
+            <td>9/17</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> DFS
+			  <ul>
+				<li>How it works</li>
+				<li>Notable applications; e.g. exact travesal</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 15</td>
+            <td>9/19</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Topological Sort
+			  <ul>
+			    <li>Review DAGs</li>
+				<li>How it works</li>
+				<li>Notable applications</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Program 1 Due</b>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 16</td>
+            <td>9/21</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> BFS
+			  <ul>
+				<li>How it works</li>
+				<li>Notable applications; biparte graphs</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 4</b> in class <br>
+			[<a href="files/hw5.pdf"  style="color:#439755;">HW5 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 17</td>
+            <td>9/24</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Strongly Connected Components
+			  <ul>
+				<li>Why we care about SCC</li>
+				<li>Kosaraju’s Algorithm</li>
+			  </ul>
+            </td>
+			<td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 18</td>
+            <td>9/26</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Strongly Connected Components
+			  <ul>
+			    <li>Metagraph representation</li>
+				<li>Proof of correctness</li>
+			  </ul>
+            </td>
+            <td>
+			<td>
+			</td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 19</td>
+            <td>9/28</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Dijkstra's
+			  <ul>
+				<li>The single-source shortest path problem</li>
+				<li>How it works</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 5</b> in class <br>
+			[<a href="files/review2.pdf"  style="color:#439755;">Review Assignment 1 Out</a>]
+			</td>
+          </tr>
+		  
+		  <tr>
+            <td>Lecture 20</td>
+            <td>10/1</td>
+            <td>
+			<b>Fundamental Graph Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Dijkstra's
+			  <ul>
+			    <li>Proof of correctness</li>
+				<li>Data structure runtime impacts </li> 
+				<li>Issue with negative weights</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 21</td>
+            <td>10/3</td>
+            <td>
+			<b>Dynamic Programming</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Intro to Dynamic Programming
+			  <ul>
+				<li>Fibonacci numbers</li>
+				<li>Top down vs bottom up</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 22</td>
+            <td>10/5</td>
+            <td>
+			<b>MIDTERM</b>
+			  
+            </td>
+            <td>
+			[<a href="files/hw6.pdf"  style="color:#439755;">HW6 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 23</td>
+            <td>10/10</td>
+            <td>
+			<b>Dynamic Programming</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Bellman Ford
+			  <ul>
+			    <li>Single source shortest path problem with negative weights</li>
+				<li>How it works: the lookup table</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 24</td>
+            <td>10/12</td>
+            <td>
+			<b>Dynamic Programming</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Bellman Ford
+			  <ul>
+				<li>Proof of correctness</li>
+				<li>Detecting negative cycles</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 6</b> in class <br>
+			[<a href="files/hw7.pdf"  style="color:#439755;">HW7 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 25</td>
+            <td>10/15</td>
+            <td>
+			<b>Dynamic Programming</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Longest Common Subsequence
+			  <ul>
+			    <li>What is the LCS?</li>
+				<li>Building the recursive formulation​</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 26</td>
+            <td>10/17</td>
+            <td>
+			<b>Dynamic Programming</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Longest Common Subsequence
+			  <ul>
+				<li>Building an algorithm around the recursive formula</li>
+				<li>How to backtrack and create the solution</li>
+			  </ul>
+            </td>
+            <td>
+			[<a href="files/program2.pdf"  style="color:#439755;">Program 2 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 27</td>
+            <td>10/19</td>
+            <td>
+			<b>Dynamic Programming</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Knapsack
+			  <ul>
+				<li>The Unbounded Knapsack</li>
+				<li>Recursive formulas with a 1D Lookup Table</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 7</b> in class <br>
+			[<a href="files/hw8.pdf" style="color:#439755;">HW8 Out</a>]
+			</td>
+          </tr>
+			<tr>
+            <td>Lecture 28</td>
+            <td>10/22</td>
+            <td>
+			<b>Dynamic Programming</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Knapsack
+			  <ul>
+			    <li>The 0/1 Knapsack</li>
+				<li>Recursive formulas with a 2D Lookup Table</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 29</td>
+            <td>10/24</td>
+            <td>
+			<b>Greedy Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Activity Selection
+			  <ul>
+				<li>Setting up a greedy choice</li>
+				<li>Establishing an optimal substructure</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 30</td>
+            <td>10/26</td>
+            <td>
+			<b>Greedy Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Job Scheduling
+			  <ul>
+			    <li>Setting up a greedy choice</li>
+				<li>Establishing an optimal substructure</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 8</b> in class <br>
+			[<a href="files/hw9.pdf" style="color:#439755;">HW9 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 31</td>
+            <td>10/29</td>
+            <td>
+			<b>Greedy Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Minimum Spanning Tree
+			  <ul>
+				<li>Defining cuts</li>
+				<li>Prooving the initial lemma</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 32</td>
+            <td>10/31</td>
+            <td>
+			<b>Greedy Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Minimum Spanning Tree
+			  <ul>
+				<li>Prim's Algorithm: How it works</li>
+				<li>Proof of correctness: analysing part way through Prim's</li>
+				<li>A faster prim's implementation</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Program 2 due</b>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 33</td>
+            <td>11/2</td>
+            <td>
+			<b>Greedy Algorithms</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Minimum Spanning Tree
+			  <ul>
+			    <li>Kruskal’s Algorithm</li>
+				<li>roof of correctness: analysing part way through Kruskal’s</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 9</b> in class <br>
+			[<a href="files/hw10.pdf" style="color:#439755;">HW10 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 34</td>
+            <td>11/5</td>
+            <td>
+			<b>Network Flow</b>
+			  <br><b><font color="#623c9b">Concepts:</font></b> Minimum Cuts
+			  <ul>
+				<li>Developing Terminology</li>
+				<li>Karger’s Algorithm: SuperVertex and SuperEdges</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 35</td>
+            <td>11/7</td>
+            <td>
+			<b>Network Flow</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Minimum Cuts, Maximum Flow
+			  <ul>
+				<li>Random algorithm pitfalls and mitigation</li>
+				<li>Establishing terminology</li>
+				<li>Max-Flow Min-Cut theorem</li>
+			  </ul>
+            </td>
+            <td>
+			[<a href="files/program3.pdf" style="color:#439755;">Program 3 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 36</td>
+            <td>11/9</td>
+            <td>
+			<b>Network Flow</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Maximum Flow
+			  <ul>
+			    <li>Max-Flow Min-Cut theorem cont.</li>
+				<li>Ford-Fulkerson algorithm</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 10</b> in class <br>
+			[<a href="files/hw11.pdf" style="color:#439755;">HW11 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 37</td>
+            <td>11/12</td>
+            <td>
+			<b>Network Flow</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Maximum Flow
+			  <ul>
+			    <li>Applying max-flow to graphs</li>
+				<li>Exploring applications of max-flow</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 38</td>
+            <td>11/14</td>
+            <td>
+			<b>Intractable Problems</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> P vs. NP
+			  <ul>
+			    <li>Establishing terminology (NP, NP-Hard, NP-Complete) </li>
+				<li>0/1 knapsack revisited: Fixed Parameter Tractability </li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 39</td>
+            <td>11/16</td>
+            <td>
+			<b>Intractable Problems</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Traveling Salesman
+			  <ul>
+				<li>Hamiltonian cycles</li>
+				<li>Traveling salesman runtime implications</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 11</b> in class <br>
+			[<a href="files/hw12.pdf" style="color:#439755;">HW12 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 40</td>
+            <td>11/19</td>
+            <td>
+			<b>Intractable Problems</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Vertex Cover
+			  <ul>
+			    <li>Defining maximum matching for vertex cover</li>
+			    <li>How it works</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Program 3 due</b>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 41</td>
+            <td>11/26</td>
+            <td>
+			<b>Intractable Problems</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Reductions
+			  <ul>
+				<li>Reductions: Set Cover</li>
+				<li>Reduction: Clique</li>
+			  </ul>
+            </td>
+            <td>
+			</td>
+          </tr>
+		  <tr>
+            <td>Lecture 42</td>
+            <td>11/28</td>
+            <td>
+			<b>Wrap Up</b>
+              <br><b><font color="#623c9b">Concepts:</font></b> Concluding Remarks
+			  <ul>
+				<li>Looking forward</li>
+				<li>Final Review</li>
+			  </ul>
+            </td>
+            <td>
+			<b>Quiz 12</b> in class <br>
+			[<a href="files/review2.pdf" style="color:#439755;">Review Assignment 2 Out</a>]
+			</td>
+          </tr>
+		  <tr>
+            <td> </td>
+            <td>12/6</td>
+            <td>
+			<b>FINAL EXAM:</b> 8:00 to 10:00 am            
+            </td>
+            <td>
+
+			</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
