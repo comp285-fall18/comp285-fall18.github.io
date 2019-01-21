@@ -1,5 +1,6 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
 }
 
 section {
@@ -10,8 +11,19 @@ section:last-child {
   margin-bottom: 240px;
 }
 
-h1, h2, h3 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+ 
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -159,6 +171,6 @@ li {
 }
 
 .course-logistics, .course-description, .policies, .resources {
-  max-width: 660px;
+  max-width: 800px;
   margin: 0 auto;
 }
